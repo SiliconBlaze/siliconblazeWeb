@@ -1125,11 +1125,9 @@ img.img-responsive {
 	color:#999 !important;
 }
 /*--//contact--*/
-.map iframe {
-    width: 100%;
-    min-height: 300px;
-    border: none;
-}
+#map {
+        min-height: 300px;
+      }
 /*--footer--*/
 .footer{
     background: url(../images/slid.jpg)no-repeat 0px 0px;
@@ -1560,10 +1558,6 @@ ul.simplefilter {
 .testi-right input[type="text"] {
     margin: 3em 0 1.3em;
 }
-.map iframe {
-    min-height: 260px;
-}
-}
 @media(max-width:800px){
 .navbar-nav > li:nth-child(6) {
     margin-right: 3em;
@@ -1815,9 +1809,6 @@ ul.simplefilter {
 }
 .contact input[type="text"] {
     width: 48.2%;
-}
-.map iframe {
-    min-height: 200px;
 }
 .footer-left,.footer-right{
     float: none;
@@ -2104,9 +2095,6 @@ p {
 }
 .contact-form {
     margin-top: 1em;
-}
-.map iframe {
-    min-height: 150px;
 }
 .modal-dialog {
     margin: 2em auto 0;
